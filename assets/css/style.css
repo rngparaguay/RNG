@@ -814,16 +814,31 @@ input[type="date"]:focus {
 /* =========== terminos =========== */
 
 .terminos_section {
-    height: 85vh;
+    display: flex;
+    justify-content:center;
     background-color: var(--first-color);
 }
 
 .terminos_section h1 {
-    padding-top: 25vh;
+    padding-top: 5vh;
+    margin-bottom: 5px;
     text-align: center;
     color: #fff;
     font-weight: var(--font-extra-bold);
     font-size: var(--biggest-font-size);
+}
+
+.container__terminos p{
+    margin-top: 5px;
+}
+
+
+.container__terminos h2{
+    margin-top: 15px;
+}
+
+.container__terminos{
+    width: 80%;
 }
 
 .terminos_aceptar {
@@ -1794,7 +1809,7 @@ h4.juegos__desc {
         color: var(--second-color);
     }
 
-    .scroll-header .nav__link {
+    .scroll-header .terminos_section__link {
         color: var(--text-color);
     }
 
