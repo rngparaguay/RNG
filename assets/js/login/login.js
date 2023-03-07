@@ -22,8 +22,8 @@ $formulario.reset()
 setCookie("token", 0)
 
 
-let logoutURL= "/dev/views/login.html"
-let loginURL= "/dev/views/inicio.html"
+let logoutURL= "https://www.rng.com.py/login.html"
+let loginURL= "https://www.rng.com.py/inicio.html"
 
 function logout(){
     window.location.href = logoutURL;

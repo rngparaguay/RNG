@@ -1,4 +1,4 @@
-let logoutURL= "/dev/views/index.html"
+let logoutURL= "https://www.rng.com.py"
 
 let $iniciar = document.getElementById("iniciar")
 

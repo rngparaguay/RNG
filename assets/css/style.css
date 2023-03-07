@@ -264,7 +264,7 @@ button {
 .home {
     min-height: 100vh;
     background-attachment: fixed;
-    background-image: url(/public/assets/img/bkcita.jpg);
+    background-image: url(https://www.rng.com.py/assets/img/bkcita.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -494,7 +494,7 @@ button {
 .cita {
     padding-top: 70px;
     padding-bottom: 70px;
-    background-image: url(/public/assets/img/bkcita.jpg);
+    background-image: url(https://www.rng.com.py/assets/img/bkcita.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -1054,7 +1054,7 @@ input[type=checkbox]:checked:after {
     position: absolute;
     width: 650px;
     height: 400px;
-    background-image: url(/public/assets/img/bkcita.jpg);
+    background-image: url(https://www.rng.com.py/assets/img/bkcita.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;

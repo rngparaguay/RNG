@@ -3,7 +3,7 @@ import { getUsuario, getPerfil, userUpdate } from "./apiUsuario.js"
 let usuario
 let perfil
 
-let logoutURL= "/dev/views/login.html"
+let logoutURL= "https://www.rng.com.py/login.html"
 
 let CidUser
 let Ctoken

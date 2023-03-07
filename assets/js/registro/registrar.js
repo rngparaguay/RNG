@@ -80,7 +80,7 @@ const campos = {
 }
 let games = []
 
-let logoutURL = "/dev/views/RegistroHecho.html"
+let logoutURL = "https://www.rng.com.py/RegistroHecho.html"
 
 function logout() {
     window.location.href = logoutURL;
