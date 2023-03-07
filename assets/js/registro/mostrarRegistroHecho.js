@@ -9,8 +9,6 @@ document.addEventListener("DOMContentLoaded", function (event) {
        logout();
     }
 
-  
-
     function getCookie(cname) {
         let name = cname + "="
         let ca = document.cookie.split(';')
