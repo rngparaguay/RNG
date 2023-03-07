@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Favico -->
+    <link rel="stylesheet" href="">
+
+    <!-- Boxicons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="/public/assets/css/style.css">
+
+    <!-- Icono -->
+    <link rel="icon" href="/public/assets/img/iconoRng.png">
+
+    <title>Inicio</title>
+</head>
+
+<body>
+
+    <!-- =========== HEADER =========== -->
+    <header class="header" id="header">
+
+        <nav class="nav container">
+            <a href="#" class="nav__logo">
+                <img class="logo__negro" src="/public/assets/img/logo1.png " alt="">
+                <img class="logo__blanco" src="/public/assets/img/logo2.png" alt="">
+            </a>
+
+            <div class="nav__menu " id="menu">
+                <ul class="nav__list nav__list-inicio">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active-link" id="nombreHome">
+                            <i class='bx bx-home-alt-2'></i>
+                            
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a class="nav__link" id="open-modal-a">
+                            <i class='bx bxs-pencil'></i>
+                        </a>
+
+                    </li>
+
+                    <li class="nav__item">
+                        <a class="nav__link curso-pointer" id="salir">
+                            <i class='bx bx-log-out-circle'></i>
+                            <span>Salir</span>
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- =========== MAIN =========== -->
+    <main>
+
+        <!-- =========== Ci =========== -->
+        <section class="inicio section">
+            <div class="inicio__container container">
+
+                <div class="inicio__ci">
+
+                    <div class="inicio__orbe"> </div>
+
+                    <div class="inicio__fondo-img"></div>
+
+                    <div class="inicio__fondo"></div>
+
+                    <div class="inicio__contariner-title">
+
+                        <img src="/public/assets/img/logo2.png" alt="Rng">
+
+                        <h2 class="inicio__title">
+                            Registro Nacional Gaming
+                        </h2>
+
+                        <p class="inicio__description">
+                            Cédula de Identidad Gaming
+                        </p>
+
+                    </div>
+
+
+
+                    <div class="inicio__datos">
+
+                        <div class="inicio__img">
+                            <img src="/public/assets/img/LogoIg.png" alt="Logo RNG">
+                            <div class="inicio__nick">
+                                <h3> Nick:</h3>
+                                <p id="nick"></p>
+                            </div>
+
+                        </div>
+
+                        <div class="inicio__datos-ci">
+
+                            <h3> Registro Nro: </h3>
+                            <p id="nickNumber"></p>
+
+                            <h3> Apellido, Nombre: </h3>
+                            <p id="name"> </p>
+
+                            <h3> Fecha Nacimineto: </h3>
+                            <p id="nacimiento"> </p>
+
+                            <h3> Juego Principal: </h3>
+                            <p id="juego"> </p>
+
+                        </div>
+
+                    </div>
+
+
+
+                </div>
+
+            </div>
+
+            <div class="descargar">
+                <!-- <a href="#">Descargar Pdf <i class='bx bxs-download'></i></a> -->
+
+                <button class="button" id="open-modal">
+                    Editar Perfil <i class='bx bxs-pencil'></i>
+                </button>
+
+            </div>
+
+        </section>
+
+        <!-- =========== modal =========== -->
+        <section class="modal-back-hidden" id="modal-section">
+            <div class="modal-container">
+
+                <button class="button-close-modal" id="close-modal">
+                    <i class='bx bx-x icon-x'></i>
+                </button>
+                <form action="" class="form">
+
+
+
+                    <h2 class="form__title">
+                        Editar Registro
+                    </h2>
+
+                    <div class="form__container">
+                        <div class="form__group-flex ">
+
+                            <div class="form__group form__group-right" id="div-fname"></div>
+
+                            <div class="form__group form__group-left" id="div-lname"></div>
+
+                        </div>
+
+                        <div class="form__group" id="div-nick"></div>
+
+
+
+                        <div class="form__container-buttom">
+                            <button class="button" type="submit" id="submit-modal">
+                                Guardar
+                            </button>
+
+                        </div>
+                    </div>
+                </form>
+
+
+
+            </div>
+        </section>
+    </main>
+
+
+    <!-- =========== FOOTER =========== -->
+    <footer class="footer footer-inicio">
+        <div class="footer__content">
+            <h3>Registro Nacional Gaming</h3>
+            <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis consequatur placeat pariatur incidunt, architecto similique ea blanditiis, itaque enim, ab maiores! Nihil veritatis blanditiis harum quasi quaerat! Hic, quos id.</p> -->
+            <ul class="socials">
+                <li><a href="#" target="_blank"><i class='bx bxl-facebook'></i></a></li>
+                <li><a href="https://www.instagram.com/rngparaguay/" target="_blank"><i
+                            class='bx bxl-instagram'></i></a></li>
+                <li><a href="https://twitter.com/rngparaguay" target="_blank"><i class='bx bxl-twitter'></i></a></li>
+                <li><a href="https://www.twitch.tv/rngparaguay" target="_blank"><i class='bx bxl-twitch'></i></a></li>
+            </ul>
+        </div>
+        <div class="footer_bottom">
+            <p>
+                Copyright &copy; 2023 Rng. designed by <span>dscode</span>
+            </p>
+        </div>
+
+    </footer>
+
+    <!-- =========== SCROLLREVEAL =========== -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- =========== sweetalert =========== -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <!-- =========== MAIN JS =========== -->
+    <script src="/public/assets/js/main.js"></script>
+    <script type="module" src="/public/assets/js/usuario/mostrarUsuario.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Favico -->
+    <link rel="stylesheet" href="">
+
+    <!-- Boxicons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="/public/assets/css/style.css">
+
+    <!-- Icono -->
+    <link rel="icon" href="/public/assets/img/iconoRng.png">
+
+
+    <title>Registro</title>
+
+</head>
+
+
+<body>
+    <!-- =========== MAIN =========== -->
+    <main>
+
+        <!-- =========== FORMULARIO =========== -->
+
+        <section class="section__form section">
+
+            <form method="POST" class="form" id="form">
+                <a href="index.html"><img src="/public/assets/img/LogoIg.png" alt=""></a>
+
+                <h2 class="form__title">
+                    Regístrarte
+                </h2>
+                <p class="form__description">
+                    Completa todos tus datos
+                </p>
+
+
+                <div class="form__container">
+
+                    <div class="form__group form__group-date" id="div-nacimiento">
+                        <input type="date" name="nacimiento" id="nacimiento" min="1950-01-01" required>
+                        <label for="name" class="form__label-nacimiento">Nacimiento <span>*</span></label>
+
+                    </div>
+
+
+
+                    <div class="form__group-flex ">
+
+                        <div class="form__group form__group-right" id="div-fname">
+                            <input required type="text" name="fname" id="fname" class="form__input" placeholder=" ">
+                            <label for="fname" class="form__label">Nombre <span>*</span></label>
+                        </div>
+
+                        <div class="form__group form__group-left" id="div-lname">
+                            <input type="text" name="lname" id="lname" class="form__input" placeholder=" " required="">
+                            <label for="lname" class="form__label">Apellido <span>*</span></label>
+                        </div>
+
+
+
+                    </div>
+
+
+                    <div class="form__group" id="div-ci">
+
+                        <input type="text" name="ci" id="ci" class="form__input" placeholder=" " required="">
+                        <label for="ci" class="form__label">Cedula <span>*</span></label>
+
+                    </div>
+
+                    <div class="form__group" id="div-sexo">
+
+                        <select class="form__select" name="sexo" id="sexo"></select>
+                        <label for="sexo" class="form__label">Genero <span>*</span></label>
+
+                    </div>
+
+                    <div class="form__group" id="div-nick">
+
+                        <input type="text" name="ussername" id="nick" class="form__input" placeholder=" " required="">
+                        <label for="ussername" class="form__label">Nick <span>*</span></label>
+
+                    </div>
+                    <div class="form__group" id="div-email">
+
+                        <input type="email" name="email" id="email" class="form__input" placeholder=" " required="">
+                        <label for="email" class="form__label">Email <span>*</span></label>
+
+                    </div>
+
+                    <div class="form__group" id="div-password">
+
+                        <input type="password" name="password" id="password" class="form__input" placeholder=" "
+                            required="">
+                        <label for="password" class="form__label">Contraseña <span>*</span></label>
+
+                    </div>
+
+
+
+                    <div class="form__group" id="div-pais">
+
+                        <select class="form__select" name="pais" id="pais"></select>
+                        <label for="name" class="form__label">Nacionalidad <span>*</span></label>
+
+                    </div>
+
+
+
+                    <div class="form__group-flex ">
+
+                        <div class="form__group form__group-right" id="div-departamento">
+
+                            <select class="form__select" name="departamento" id="departamento"></select>
+                            <label for="name" class="form__label">Departamento <span>*</span></label>
+
+                        </div>
+
+                        <div class="form__group form__group-left" id="div-ciudad">
+
+                            <select class="form__select" name="ciudad" id="ciudad"></select>
+                            <label for="name" class="form__label">Ciudad <span>*</span></label>
+
+                        </div>
+
+                    </div>
+
+                    <h2 class="form__title">
+                        Selección de Juegos
+                    </h2>
+
+                    <div class="form__group" id="div-plataforma_uno">
+                        <select class="form__select" name="plataforma_uno" id="plataforma_uno"></select>
+                        <label for="plataforma_uno" class="form__label">Plataforma 1 <span>*</span></label>
+                    </div>
+
+
+                    <div class="form__group" id="div-juego_uno">
+                        <select class="form__select" name="juego_uno" id="juego_uno"></select>
+                        <label for="juego_uno" class="form__label">Juego 1 <span>*</span></label>
+
+                    </div>
+
+
+                    <div class="form__group">
+                        <select class="form__select" name="plataforma_dos" id="plataforma_dos"></select>
+                        <label for="plataforma_dos" class="form__label">Plataforma 2 (Opcional)</label>
+                    </div>
+
+
+                    <div class="form__group">
+                        <select class="form__select" name="juego_dos" id="juego_dos"></select>
+                        <label for="juego_dos" class="form__label">Juego 2 (Opcional)</label>
+
+                    </div>
+
+
+                    <div class="form__group">
+
+                        <select class="form__select" name="plataforma_tres" id="plataforma_tres"></select>
+                        <label for="plataforma_tres" class="form__label">Plataforma 3 (Opcional)</label>
+
+                    </div>
+
+                    <div class="form__group">
+
+                        <select class="form__select" name="juego_tres" id="juego_tres"></select>
+                        <label for="juego_tres" class="form__label">Juego 3 (Opcional)</label>
+
+                    </div>
+                    <label class="terminos_aceptar">
+
+                        <input type="checkbox" required="" id="terminos">
+                        <p>
+                            Leí y acepto los <a href="#">términos de servicio</a>.
+                        </p>
+
+                    </label>
+
+                    <div class="form__container-buttom">
+
+                        <button class="button" type="submit" id="submit">
+                            Registrarse
+                        </button>
+
+                    </div>
+
+                    <label for="terms" class="terminos_aceptar politica">
+
+                        <a href="#">Policita de privacidad</a>
+                        <p>
+                            ¿Ya tienes una cuenta en RNG? <a href="Login.html">Iniciar Sesión</a>
+                        </p>
+
+                    </label>
+
+                </div>
+
+            </form>
+
+        </section>
+
+    </main>
+
+    <!-- =========== SCROLLREVEAL =========== -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+
+    <!-- =========== MAIN JS =========== -->
+    <script type="module" src="/public/assets/js/registro/mostrarCiudades.js"></script>
+    <script type="module" src="/public/assets/js/registro/mostrarJuegos.js"></script>
+    <script type="module" src="/public/assets/js/registro/registrar.js"></script>
+</body>
+
+</html>
