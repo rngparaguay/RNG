@@ -126,6 +126,7 @@ button {
 
 .grid {
     display: grid;
+    justify-content: center;
 }
 
 .section {
